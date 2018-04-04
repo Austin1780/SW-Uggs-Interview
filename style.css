@@ -1,0 +1,173 @@
+#free-shipping {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  padding: 15px;
+  float: left;
+}
+#login-menu {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+}
+li {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  padding: 15px 15px;
+  font-size: 16px;
+  float: right;
+}
+
+.login-header a,
+.menu-link:hover,
+.menu-link p {
+  color: black;
+  text-decoration: none;
+}
+
+.menu-link p,
+#search,
+#cart {
+  padding-top: 15px;
+}
+
+.login-header a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.menu-link:hover {
+  background-color: #eaeaea;
+}
+
+.main-header {
+  margin-top: 20px;
+}
+
+.main-header p {
+  text-align: center;
+}
+
+#main-logo {
+  float: right;
+}
+
+#cart {
+  float: left;
+}
+
+#search,
+#cart {
+  display: block;
+  margin: auto;
+}
+
+#star-wars-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+}
+
+.description {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-size: 25px; /* Approximation due to font substitution */
+  font-weight: 400;
+  text-align: justify;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  line-height: 40px;
+  width: 80%;
+}
+
+.jumbo-image {
+  position: relative;
+}
+
+#hyperspeed {
+  width: 100%;
+  z-index: 1;
+}
+
+#boots-main {
+  width: 45%;
+  z-index: 2;
+  position: absolute;
+  top: 10%;
+  left: 25%;
+}
+
+.rewards-box,
+.product-box {
+  background-color: #f9f9f9;
+}
+
+.rewards-box {
+  margin-top: 80px;
+}
+
+#rewards-logo {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+#rewards-big {
+  font-family: "Merriweather", serif;
+  color: black;
+  font-size: 48px;
+  font-weight: 500;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#rewards-small {
+  font-family: "Lato", sans-serif;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.product-box {
+  margin-top: 30px;
+}
+
+.product-left {
+  border-right: 15px solid white;
+}
+.product-right {
+  border-left: 15px solid white;
+}
+.final-product-row {
+  margin-bottom: 80px;
+}
+
+.product-name {
+  height: 91px;
+  background-color: #dedede;
+  color: black;
+  text-align: center;
+  padding-top: 35px;
+  font-family: "Lato", sans-serif;
+  font-size: 19px;
+  visibility: hidden;
+}
